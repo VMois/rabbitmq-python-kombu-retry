@@ -1,0 +1,13 @@
+got message: Workflow 1 (OK), retries_count: 0
+got message: Workflow 5 (Fail), retries_count: 0
+retry Workflow 5 (Fail)
+got message: Workflow 3 (OK), retries_count: 0
+got message: Workflow 5 (Fail), retries_count: 1
+retry Workflow 5 (Fail)
+got message: Workflow 4 (OK), retries_count: 0
+got message: Workflow 5 (Fail), retries_count: 2
+retry Workflow 5 (Fail)
+got message: Workflow 5 (Fail), retries_count: 3
+No more retries left for Workflow 5 (Fail). Rejected and update status to failed
+got message: Workflow 6 (OK), retries_count: 0
+got message: Workflow 2 (OK), retries_count: 0
